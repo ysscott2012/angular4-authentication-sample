@@ -1,0 +1,15 @@
+<form [formGroup]="signupForm" (ngSubmit)="signup()" id="Form" class="clearfix">
+
+  <!-- username -->
+  <div class="input">
+    <input type="username" id="username" formControlName="username" placeholder="username" />
+  </div>
+
+  <!-- password -->
+  <div class="input">
+    <input type="password" id="password" formControlName="password" placeholder="Password" />
+  </div>
+
+  <button type="submit" class="btn btn-primary" style="float: right">Sign up</button>
+
+</form>

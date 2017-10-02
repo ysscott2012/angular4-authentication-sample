@@ -1,0 +1,48 @@
+
+
+
+.box {
+  height: 300px;
+  width: 400px;
+  margin: 0px auto;
+  border: 1px solid #dadada;
+  border-top-color: #fff;
+  box-shadow: 1px 1px 10px 0px #dadada;
+  background-color: white;
+}
+
+.nav-tabs.nav-justified {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.authentication {
+  /* 342 / 2 */
+  padding: calc(50vh - 171px) 0px;
+}
+
+#Form {
+  padding: 52px 40px;
+}
+
+.input {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.input input{
+  width: 100%;
+  padding: 2.5px 40px 2.5px 10px;
+  height: 40px;
+}
+
+.input-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 40px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+  border-left: 1px solid #dadada;
+}

@@ -1,0 +1,26 @@
+#Form {
+  padding: 40px;
+  height: calc(100% - 80px);
+}
+
+.input {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.input input{
+  width: calc(100% - 54px);
+  padding: 2.5px 40px 2.5px 10px;
+  height: 40px;
+}
+
+.input-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 40px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+  border-left: 1px solid #dadada;
+}

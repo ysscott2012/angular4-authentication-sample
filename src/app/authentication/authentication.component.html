@@ -1,0 +1,10 @@
+<div class="authentication-div"></div>
+<div class="container authentication">
+  <ul class="nav nav-tabs nav-justified">
+    <li [ngClass]="{ active : getHash('login')}"><a [routerLink]="['/auth/login']">Login</a></li>
+    <li [ngClass]="{ active : getHash('signup')}"><a [routerLink]="['/auth/signup']">Signup</a></li>
+  </ul>
+  <div class="box">
+    <router-outlet></router-outlet>
+  </div>
+</div>
