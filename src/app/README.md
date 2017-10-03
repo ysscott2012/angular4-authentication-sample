@@ -2,8 +2,20 @@
 
 structure:
 - app module 
-  - authentication module	
-    - authentication component
-      - login component
-      - signup component   
-      - authentication service
+  - authentication	
+    - login
+      - login.component.ts
+    - signup
+      - signup.component.ts
+    - services
+      - authentication.service.ts
+    - authentication.component.ts
+    - authentication.module.ts
+    - authentication.route.ts
+  - models
+    - user.ts
+  - services
+    - http.service.ts
+  - app.component.ts
+  - app.module.ts
+  - app.route.ts
