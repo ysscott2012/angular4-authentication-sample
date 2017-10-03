@@ -1,15 +1,18 @@
 ### Angular 4 app (client side)
 
-structure:
+#### structure:
 
 - app module 
   - authentication	
-    - login
+    - login (route: /auth/login)
+      - login.component.html 
       - login.component.ts
-    - signup
+    - signup (route: /auth/signup)
+      - signup.component.html
       - signup.component.ts
     - services
       - authentication.service.ts
+    - authentication.component.html
     - authentication.component.ts
     - authentication.module.ts
     - authentication.route.ts
